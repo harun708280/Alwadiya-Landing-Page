@@ -10,584 +10,858 @@
       .custom-scrollbar::-webkit-scrollbar {
         width: 8px;
       }
-    
+
       .custom-scrollbar::-webkit-scrollbar-track {
         background: transparent;
         border-radius: 10px;
       }
-    
+
       .custom-scrollbar::-webkit-scrollbar-thumb {
         background: rgba(255, 255, 255, 0.04);
         border-radius: 10px;
       }
-    
+
       .custom-scrollbar::-webkit-scrollbar-thumb:hover {
         background: rgba(255, 255, 255, 0.3);
       }
     </style>
   </head>
   <body class="font-darker sm:bg-secondary overflow-x-hidden">
-    
-      <main class="relative">
-      <div class="relative shadow-xl  min-h-[800px]  w-full bg-hero bg-cover bg-bottom bg-no-repeat">
-      <div class="bg-[#0A0001] bg-opacity-90 inset-0 absolute"></div>
-        <div class="bg-[#0A0001] bg-opacity-90  absolute"></div>
-          <!-- Overlay -->
-          <div
-            class="absolute inset-0  bg-opacity-60 mix-blend-overlay"
-          ></div>
+    <main class="relative">
+      <div
+        class="relative shadow-xl min-h-[800px] w-full bg-hero bg-cover bg-bottom bg-no-repeat"
+      >
+        <div class="bg-[#0A0001] bg-opacity-90 inset-0 absolute"></div>
+        <div class="bg-[#0A0001] bg-opacity-90 absolute"></div>
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-opacity-60 mix-blend-overlay"></div>
 
-          <!-- Blur Effect -->
-          <div
-            class="absolute inset-0 w-[680px] h-[857px] bg-primary rounded-full blur-[204px] opacity-10 backdrop-blur-[564px] -top-[243px] -left-[189px]"
-          ></div>
+        <!-- Blur Effect -->
+        <div
+          class="absolute inset-0 w-[680px] h-[857px] bg-primary rounded-full blur-[204px] opacity-10 backdrop-blur-[564px] -top-[243px] -left-[189px]"
+        ></div>
 
-          <!-- Header Section -->
-          <header class="relative z-20">
-            <div class="max-w-[1320px] mx-auto">
+        <!-- Header Section -->
+        <header class="relative z-20">
+          <div class="max-w-[1320px] mx-auto">
+            <div
+              class="flex justify-between items-center pt-7 pb-2 border-b border-[#FFFFFFB2]"
+            >
+              <!-- Logo -->
               <div
-                class="flex justify-between items-center pt-7 pb-2 border-b border-[#FFFFFFB2]"
+                class="flex items-center gap-4 text-white text-3xl font-bold"
               >
-                <!-- Logo -->
-                <div
-                  class="flex items-center gap-4 text-white text-3xl font-bold"
-                >
-                  <img
-                    class="h-14 w-16"
-                    src="./assets/Layer_1.png"
-                    alt="AlWadiya Logo"
-                  />
-                  <h2>ALWadiya</h2>
-                </div>
-
-                <!-- Navigation -->
-                <nav class="space-x-4 text-lg">
-                  <a href="#" class="text-[#FFFFFFB2] hover:text-white">Home</a>
-                  <a href="#" class="text-[#FFFFFFB2] hover:text-white"
-                    >Products</a
-                  >
-                  <a href="#" class="text-[#FFFFFFB2] hover:text-white"
-                    >Why AlWadiya?</a
-                  >
-                  <a href="#" class="text-[#FFFFFFB2] hover:text-white">News</a>
-                  <a href="#" class="text-[#FFFFFFB2] hover:text-white"
-                    >Contact Us</a
-                  >
-                </nav>
-
-                <!-- Join Us Button -->
-                <button
-                  class="flex items-center gap-2 px-5 py-2 border rounded-full text-white"
-                >
-                  Join Us <img src="./assets/icon/vector.png" alt="Join Icon" />
-                </button>
+                <img
+                  class="h-14 w-16"
+                  src="./assets/Layer_1.png"
+                  alt="AlWadiya Logo"
+                />
+                <h2>ALWadiya</h2>
               </div>
-            </div>
-          </header>
 
-          <!-- Hero Section -->
-          <section
-            class="relative z-20 max-w-[1320px] mx-auto flex items-center gap-3 my-16"
-          >
-            <!-- Text Content -->
-            <div class="flex-1 w-[60%] text-white">
-              <h1 class="font-semibold text-7xl leading-[100px] uppercase">
-                Building Smarter Future
-                <span
-                  class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text"
+              <!-- Navigation -->
+              <nav class="space-x-4 text-lg">
+                <a href="#" class="text-[#FFFFFFB2] hover:text-white">Home</a>
+                <a href="#" class="text-[#FFFFFFB2] hover:text-white"
+                  >Products</a
                 >
-                  Solutions
-                </span>
-              </h1>
-              <p class="text-base leading-[30px] text-[#FFFFFFB2] my-5">
-                Shape a brighter tomorrow with AlWadiya’s smarter future
-                solutions. Combining innovation and expertise, we develop
-                advanced technologies to tackle modern challenges, enhance
-                efficiency, and create sustainable opportunities, empowering
-                industries and individuals to thrive in an ever-evolving global
-                landscape.
-              </p>
+                <a href="#" class="text-[#FFFFFFB2] hover:text-white"
+                  >Why AlWadiya?</a
+                >
+                <a href="#" class="text-[#FFFFFFB2] hover:text-white">News</a>
+                <a href="#" class="text-[#FFFFFFB2] hover:text-white"
+                  >Contact Us</a
+                >
+              </nav>
+
+              <!-- Join Us Button -->
               <button
-                class="flex items-center gap-2 px-7 py-2 bg-primary rounded-full text-white"
+                class="flex items-center gap-2 px-5 py-2 border rounded-full text-white"
               >
-              Contact Us <img src="./assets/icon/vector.png" alt="Join Icon" />
+                Join Us <img src="./assets/icon/vector.png" alt="Join Icon" />
               </button>
             </div>
+          </div>
+        </header>
 
-            <!-- Hero Image and Awards -->
-            <div class="relative  w-[45%] flex justify-end">
-              <img class="w-[650px]" src="./assets/thumbails/hero.png" alt="Hero Image" />
-
-              <!-- Award Badges -->
-              <div
-                class="absolute top-[5%] -right-[13%] bg-[#FFFFFF1A] text-[#FFFFFFB2] rounded-xl max-w-[320px] w-[260px] p-3 px-4 text-center"
+        <!-- Hero Section -->
+        <section
+          class="relative z-20 max-w-[1320px] mx-auto flex items-center gap-3 my-16"
+        >
+          <!-- Text Content -->
+          <div class="flex-1 w-[60%] text-white">
+            <h1 class="font-semibold text-7xl leading-[100px] uppercase">
+              Building Smarter Future
+              <span
+                class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text"
               >
-                <h3 class="text-2xl leading-6 text-white">
-                  Bootstrapping <br />
-                  Excellence Award
-                </h3>
-                <p>Startup Summit 2023</p>
-              </div>
+                Solutions
+              </span>
+            </h1>
+            <p class="text-base leading-[30px] text-[#FFFFFFB2] my-5">
+              Shape a brighter tomorrow with AlWadiya’s smarter future
+              solutions. Combining innovation and expertise, we develop advanced
+              technologies to tackle modern challenges, enhance efficiency, and
+              create sustainable opportunities, empowering industries and
+              individuals to thrive in an ever-evolving global landscape.
+            </p>
+            <button
+              class="flex items-center gap-2 px-7 py-2 bg-primary rounded-full text-white"
+            >
+              Contact Us <img src="./assets/icon/vector.png" alt="Join Icon" />
+            </button>
+          </div>
 
-              <div
-                class="absolute bottom-[4%] -left-[16%] bg-[#FFFFFF1A] text-[#FFFFFFB2] rounded-xl max-w-[320px] p-3 px-4 text-center"
-              >
-                <h3 class="text-2xl text-white">Best Young CEO</h3>
-                <p>Global Economics Awards 2022</p>
-              </div>
+          <!-- Hero Image and Awards -->
+          <div class="relative w-[45%] flex justify-end">
+            <img
+              class="w-[650px]"
+              src="./assets/thumbails/hero.png"
+              alt="Hero Image"
+            />
 
-              <div
-                class="absolute bottom-[4%] -right-[13%] bg-[#FFFFFF1A] text-[#FFFFFFB2] rounded-xl max-w-[320px] p-3 px-4 text-center"
-              >
-                <h3 class="text-2xl text-white">Prop Trading Firm</h3>
-                <p>Global Economics Awards 2022</p>
-              </div>
+            <!-- Award Badges -->
+            <div
+              class="absolute top-[5%] -right-[13%] bg-[#FFFFFF1A] text-[#FFFFFFB2] rounded-xl max-w-[320px] w-[260px] p-3 px-4 text-center"
+            >
+              <h3 class="text-2xl leading-6 text-white">
+                Bootstrapping <br />
+                Excellence Award
+              </h3>
+              <p>Startup Summit 2023</p>
             </div>
-          </section>
 
+            <div
+              class="absolute bottom-[4%] -left-[16%] bg-[#FFFFFF1A] text-[#FFFFFFB2] rounded-xl max-w-[320px] p-3 px-4 text-center"
+            >
+              <h3 class="text-2xl text-white">Best Young CEO</h3>
+              <p>Global Economics Awards 2022</p>
+            </div>
 
-          
-        
-        </div>
+            <div
+              class="absolute bottom-[4%] -right-[13%] bg-[#FFFFFF1A] text-[#FFFFFFB2] rounded-xl max-w-[320px] p-3 px-4 text-center"
+            >
+              <h3 class="text-2xl text-white">Prop Trading Firm</h3>
+              <p>Global Economics Awards 2022</p>
+            </div>
+          </div>
+        </section>
+      </div>
 
-        <section class=" py-16  text-white">
-            <div class="h-[803px] w-[693px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px]  absolute top-[900px] left-[1700px]  blur-[270px]"></div>
-            <div class="h-[611px] w-[442px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px]  absolute top-[1241px] left-[-364px]  blur-[270px]"></div>
-            <!-- <div class="h-[461px] w-[332px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px]  absolute   blur-[100px]"></div> -->
-             
-            <div class="absolute top-[1505px] left-[650px]  mx-auto w-[460px] h-[334px] bg-red-500 opacity-20 blur-[200px]"></div>
+      <section class="py-16 text-white">
+        <div
+          class="h-[803px] w-[693px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px] absolute top-[900px] left-[1700px] blur-[270px]"
+        ></div>
+        <div
+          class="h-[611px] w-[442px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px] absolute top-[1241px] left-[-364px] blur-[270px]"
+        ></div>
+        <!-- <div class="h-[461px] w-[332px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px]  absolute   blur-[100px]"></div> -->
 
-            <div class="max-w-[1320px] mx-auto text-center">
-                <!-- Section Title -->
-                <h2 class="text-4xl font-semibold uppercase tracking-wide">
-                    OUR  <span
-                    class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text"
-                  >
-                  SERVICES
-                  </span>
-                </h2>
-             
+        <div
+          class="absolute top-[1505px] left-[650px] mx-auto w-[460px] h-[334px] bg-red-500 opacity-20 blur-[200px]"
+        ></div>
 
-                       <!-- Services Grid -->
-        <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-            
+        <div class="max-w-[1320px] mx-auto text-center">
+          <!-- Section Title -->
+          <h2 class="text-4xl font-semibold uppercase tracking-wide">
+            OUR
+            <span
+              class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text"
+            >
+              SERVICES
+            </span>
+          </h2>
+
+          <!-- Services Grid -->
+          <div
+            class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10"
+          >
             <!-- Service Box 1 (Highlighted) -->
-            <div class="relative p-6 rounded-lg border border-[#DA001799] shadow-[1px_2px_40px_0px_#DA001799]  bg-[#141414] bg-opacity-50">
-                <div class="flex justify-center mb-4">
-                    <img src="./assets/icon/startup.png" alt="Startup Investment" class="w-12">
-                </div>
-                <h3 class="text-xl font-semibold">Startup Investment Facilitation</h3>
-                <p class="text-[#B0B0B0] mt-3">
-                    We're passionate about discovering and nurturing the next big idea...
-                </p>
+            <div
+              class="relative p-6 rounded-lg border border-[#DA001799] shadow-[1px_2px_40px_0px_#DA001799] bg-[#141414] bg-opacity-50"
+            >
+              <div class="flex justify-center mb-4">
+                <img
+                  src="./assets/icon/startup.png"
+                  alt="Startup Investment"
+                  class="w-12"
+                />
+              </div>
+              <h3 class="text-xl font-semibold">
+                Startup Investment Facilitation
+              </h3>
+              <p class="text-[#B0B0B0] mt-3">
+                We're passionate about discovering and nurturing the next big
+                idea...
+              </p>
             </div>
 
             <!-- Service Box 2 -->
-            <div class="p-6 rounded-lg  border border-[#FFFFFF1A] transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799]  bg-[#141414] bg-opacity-50 ">
-                <div class="flex justify-center mb-4">
-                    <img src="./assets/icon/partnership.png" alt="Strategic Partnership" class="w-12">
-                </div>
-                <h3 class="text-xl font-semibold">Strategic Partnership Development</h3>
-                <p class="text-[#B0B0B0] mt-3">
-                    We believe in the power of connection. Our team expertly bridges relationships...
-                </p>
+            <div
+              class="p-6 rounded-lg border border-[#FFFFFF1A] transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799] bg-[#141414] bg-opacity-50"
+            >
+              <div class="flex justify-center mb-4">
+                <img
+                  src="./assets/icon/partnership.png"
+                  alt="Strategic Partnership"
+                  class="w-12"
+                />
+              </div>
+              <h3 class="text-xl font-semibold">
+                Strategic Partnership Development
+              </h3>
+              <p class="text-[#B0B0B0] mt-3">
+                We believe in the power of connection. Our team expertly bridges
+                relationships...
+              </p>
             </div>
 
             <!-- Service Box 3 -->
-            <div class="p-6 rounded-lg bg-[#141414] bg-opacity-50  shadow-lg transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799]">
-                <div class="flex justify-center mb-4">
-                    <img src="./assets/icon/risk.png" alt="Risk Assessment" class="w-12">
-                </div>
-                <h3 class="text-xl font-semibold">Risk Assessment for Startups</h3>
-                <p class="text-[#B0B0B0] mt-3">
-                    Every innovation carries risk, and our detailed analysis helps mitigate these...
-                </p>
+            <div
+              class="p-6 rounded-lg bg-[#141414] bg-opacity-50 shadow-lg transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799]"
+            >
+              <div class="flex justify-center mb-4">
+                <img
+                  src="./assets/icon/risk.png"
+                  alt="Risk Assessment"
+                  class="w-12"
+                />
+              </div>
+              <h3 class="text-xl font-semibold">
+                Risk Assessment for Startups
+              </h3>
+              <p class="text-[#B0B0B0] mt-3">
+                Every innovation carries risk, and our detailed analysis helps
+                mitigate these...
+              </p>
             </div>
 
             <!-- Service Box 4 -->
-            <div class="p-6 rounded-lg bg-[#141414] bg-opacity-50  shadow-lg transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799]">
-                <div class="flex justify-center mb-4">
-                    <img src="./assets/icon/funding.png" alt="Funding Solutions" class="w-12">
-                </div>
-                <h3 class="text-xl font-semibold">Equity and Funding Solutions</h3>
-                <p class="text-[#B0B0B0] mt-3">
-                    Tailored funding strategies are our forte. We craft custom financial solutions...
-                </p>
+            <div
+              class="p-6 rounded-lg bg-[#141414] bg-opacity-50 shadow-lg transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799]"
+            >
+              <div class="flex justify-center mb-4">
+                <img
+                  src="./assets/icon/funding.png"
+                  alt="Funding Solutions"
+                  class="w-12"
+                />
+              </div>
+              <h3 class="text-xl font-semibold">
+                Equity and Funding Solutions
+              </h3>
+              <p class="text-[#B0B0B0] mt-3">
+                Tailored funding strategies are our forte. We craft custom
+                financial solutions...
+              </p>
             </div>
 
             <!-- Service Box 5 -->
-            <div class="p-6 rounded-lg bg-[#141414] bg-opacity-50  shadow-lg transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799]">
-                <div class="flex justify-center mb-4">
-                    <img src="./assets/icon/compliance.png" alt="Regulatory Compliance" class="w-12">
-                </div>
-                <h3 class="text-xl font-semibold">Regulatory Compliance Advisory</h3>
-                <p class="text-[#B0B0B0] mt-3">
-                    Navigating the regulatory maze can be daunting. We guide startups...
-                </p>
+            <div
+              class="p-6 rounded-lg bg-[#141414] bg-opacity-50 shadow-lg transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799]"
+            >
+              <div class="flex justify-center mb-4">
+                <img
+                  src="./assets/icon/compliance.png"
+                  alt="Regulatory Compliance"
+                  class="w-12"
+                />
+              </div>
+              <h3 class="text-xl font-semibold">
+                Regulatory Compliance Advisory
+              </h3>
+              <p class="text-[#B0B0B0] mt-3">
+                Navigating the regulatory maze can be daunting. We guide
+                startups...
+              </p>
             </div>
 
             <!-- Service Box 6 -->
-            <div class="p-6 rounded-lg bg-[#141414] bg-opacity-50  shadow-lg transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799]">
-                <div class="flex justify-center mb-4">
-                    <img src="./assets/icon/portfolio.png" alt="Portfolio Management" class="w-12">
-                </div>
-                <h3 class="text-xl font-semibold">Portfolio Management</h3>
-                <p class="text-[#B0B0B0] mt-3">
-                    We don’t just invest, we nurture. Our portfolio management focuses on...
-                </p>
+            <div
+              class="p-6 rounded-lg bg-[#141414] bg-opacity-50 shadow-lg transition duration-300 hover:shadow-[1px_2px_40px_0px_#DA001799]"
+            >
+              <div class="flex justify-center mb-4">
+                <img
+                  src="./assets/icon/portfolio.png"
+                  alt="Portfolio Management"
+                  class="w-12"
+                />
+              </div>
+              <h3 class="text-xl font-semibold">Portfolio Management</h3>
+              <p class="text-[#B0B0B0] mt-3">
+                We don’t just invest, we nurture. Our portfolio management
+                focuses on...
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-white"></section>
+      <section class="py-16 relative text-white">
+        <h2
+          class="text-5xl font-semibold text-center mb-2 uppercase tracking-wide"
+        >
+          WHY CHOOSE
+          <span
+            class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text"
+          >
+            ALWADIYA </span
+          >?
+        </h2>
+        <div
+          class="max-w-[1320px] mx-auto flex flex-col lg:flex-row items-center gap-12 relative"
+        >
+          <!-- Left Side (Text Content) -->
+          <div class="lg:w-1/2 text-left">
+            <!-- Line Indicator -->
+            <div class="relative mt-6">
+              <svg
+                width="20"
+                height="100"
+                viewBox="0 0 20 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="absolute -left-8"
+              >
+                <circle
+                  cx="10"
+                  cy="10"
+                  r="5"
+                  stroke="#FF0000"
+                  stroke-width="2"
+                />
+                <line
+                  x1="10"
+                  y1="20"
+                  x2="10"
+                  y2="100"
+                  stroke="red"
+                  stroke-width="2"
+                />
+              </svg>
+              <h3 class="text-2xl font-semibold">Advanced Security</h3>
+              <p class="text-[#958888] mt-3 text-base">
+                We ensure top-notch security through advanced encryption and
+                multi-layered protocols, safeguarding your data and assets from
+                unauthorized access and potential breaches.
+              </p>
             </div>
 
+            <!-- Features List -->
+            <ul class="mt-6 space-y-3">
+              <li class="text-xl font-medium">Comprehensive Features</li>
+              <li class="text-lg font-medium">Global Accessibility</li>
+              <li class="text-lg font-medium">Low Fees and High Liquidity</li>
+              <li class="text-lg font-medium">Educational Resources</li>
+              <li class="text-lg font-medium">Dedicated Support</li>
+            </ul>
+          </div>
+
+          <!-- Right Side (Image) -->
+          <div class="lg:w-1/2">
+            <img
+              src="./assets/thumbails/choose.png"
+              alt="Security Shield"
+              class="w-full max-w-[500px] mx-auto"
+            />
+          </div>
         </div>
-            </div>
-        </section>
-        <section class="text-white">
-         
-        </section>
-        <section class="py-16 relative text-white ">
-            
-            <h2 class="text-5xl font-semibold text-center mb-2 uppercase tracking-wide">
-                WHY CHOOSE 
-                <span class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text">
-                    ALWADIYA
-                </span>?
-            </h2>
-            <div class="max-w-[1320px] mx-auto flex flex-col lg:flex-row items-center gap-12 relative">
-                
-                
-                <!-- Left Side (Text Content) -->
-                <div class="lg:w-1/2 text-left">
-                    
-        
-                    <!-- Line Indicator -->
-                    <div class="relative mt-6">
-                        <svg width="20" height="100" viewBox="0 0 20 100" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute -left-8">
-                            <circle cx="10" cy="10" r="5" stroke="#FF0000" stroke-width="2"/>
-                            <line x1="10" y1="20" x2="10" y2="100" stroke="red" stroke-width="2"/>
-                        </svg>
-                        <h3 class="text-2xl font-semibold">Advanced Security</h3>
-                        <p class="text-[#958888] mt-3 text-base">
-                            We ensure top-notch security through advanced encryption and multi-layered protocols, safeguarding your data and assets from unauthorized access and potential breaches.
-                        </p>
-                    </div>
-        
-                    <!-- Features List -->
-                    <ul class="mt-6 space-y-3">
-                        <li class="text-xl font-medium">Comprehensive Features</li>
-                        <li class="text-lg font-medium"> Global Accessibility</li>
-                        <li class="text-lg font-medium">Low Fees and High Liquidity</li>
-                        <li class="text-lg font-medium">Educational Resources</li>
-                        <li class="text-lg font-medium"> Dedicated Support</li>
-                    </ul>
-                </div>
-        
-                <!-- Right Side (Image) -->
-                <div class="lg:w-1/2 ">
-                   
-                    <img src="./assets/thumbails/choose.png" alt="Security Shield" class="w-full max-w-[500px] mx-auto">
-                    
-                    
-                    
-                </div>
-        
-            </div>
-        </section >
-        <section class=" py-16 mx-auto max-w-[1135px] text-center text-white">
-          <h1 class="text-5xl font-semibold uppercase ">
-            Redefining <span class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text">Trading</span> for Tomorrow
+      </section>
+      <section class="py-16 mx-auto max-w-[1135px] text-center text-white">
+        <h1 class="text-5xl font-semibold uppercase">
+          Redefining
+          <span
+            class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text"
+            >Trading</span
+          >
+          for Tomorrow
         </h1>
-        <p class="text-gray-300 mt-3  max-w-[798px] mx-auto">
-            Empowering traders worldwide with cutting-edge tools, seamless connectivity, and a commitment to 
-            sustainable growth and excellence.
+        <p class="text-gray-300 mt-3 max-w-[798px] mx-auto">
+          Empowering traders worldwide with cutting-edge tools, seamless
+          connectivity, and a commitment to sustainable growth and excellence.
         </p>
         <!-- Flag Country -->
 
-        <div class="py-28 ">
-          <div class="flex    relative pt-[32px]">
-            <div class="flex absolute left-[4.5%] items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/image (8).png" alt="">
+        <div class="py-28">
+          <div class="flex relative pt-[32px]">
+            <div
+              class="flex absolute left-[4.5%] items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/image (8).png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">South Africa</p>
             </div>
-            <div class="flex absolute  top-4 left-[16%] items-center gap-2 border border-[#DA001766] rounded-full p-1 bg-black/20 rotate-45">
-
-              <img src="./assets/icon/Turkiye.png" alt="">
-              <p class="text-[#FFFFFF] text-lg font-medium ">Turkiye</p>
+            <div
+              class="flex absolute top-4 left-[16%] items-center gap-2 border border-[#DA001766] rounded-full p-1 bg-black/20 rotate-45"
+            >
+              <img src="./assets/icon/Turkiye.png" alt="" />
+              <p class="text-[#FFFFFF] text-lg font-medium">Turkiye</p>
             </div>
 
-            <div class="flex absolute left-[30%] items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/Argentina.png" alt="">
+            <div
+              class="flex absolute left-[30%] items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/Argentina.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">Argentina</p>
             </div>
-            <div class="flex absolute top-2 left-[41.5%] -rotate-45 items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/Canada.png" alt="">
-              <p class="text-[#FFFFFF] text-lg font-medium ">Canada</p>
+            <div
+              class="flex absolute top-2 left-[41.5%] -rotate-45 items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/Canada.png" alt="" />
+              <p class="text-[#FFFFFF] text-lg font-medium">Canada</p>
             </div>
-            <div class="flex absolute left-[50%] -top-[15%] rotate-45 items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/Netherlands.png" alt="">
+            <div
+              class="flex absolute left-[50%] -top-[15%] rotate-45 items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/Netherlands.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">Netherlands</p>
-          </div>
-            <div class="flex absolute left-[63%]   items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/Brazil.png" alt="">
+            </div>
+            <div
+              class="flex absolute left-[63%] items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/Brazil.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">Brazil</p>
-          </div>
-            <div class="flex absolute left-[72%] rotate-45 -top-[10%]  items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/Singapore.png" alt="">
+            </div>
+            <div
+              class="flex absolute left-[72%] rotate-45 -top-[10%] items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/Singapore.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">Singapore</p>
-          </div>
-          <div class="flex absolute left-[85%]   items-center gap-1 border border-[#DA001766] rounded-full p-2">
-            <img src="./assets/icon/Spain.png" alt="">
-            <p class="text-[#FFFFFF] text-lg font-medium">Spain</p>
-        </div>
-         
-
-            
+            </div>
+            <div
+              class="flex absolute left-[85%] items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/Spain.png" alt="" />
+              <p class="text-[#FFFFFF] text-lg font-medium">Spain</p>
+            </div>
           </div>
           <div class="flex justify-between gap-3 mt-16">
-            
-            <div class="flex   items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/Germany.png" alt="">
+            <div
+              class="flex items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/Germany.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">Germany</p>
             </div>
-            <div class="flex   items-center gap-1 border border-[#DA001766] bg-primary rounded-full p-2">
-              
-              <p class="text-[#FFFFFF] text-lg font-medium px-5 ">156+ More</p>
+            <div
+              class="flex items-center gap-1 border border-[#DA001766] bg-primary rounded-full p-2"
+            >
+              <p class="text-[#FFFFFF] text-lg font-medium px-5">156+ More</p>
             </div>
-            <div class="flex   items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/UAE.png" alt="">
+            <div
+              class="flex items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/UAE.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">UAE</p>
             </div>
-            <div class="flex   items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/Italy.png" alt="">
+            <div
+              class="flex items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/Italy.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">Italy</p>
             </div>
-            <div class="flex   items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/Nigeria.png" alt="">
+            <div
+              class="flex items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/Nigeria.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">Nigeria</p>
             </div>
-            <div class="flex   items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/United Kingdom.png" alt="">
+            <div
+              class="flex items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/United Kingdom.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">United Kingdom</p>
             </div>
-            <div class="flex   items-center gap-1 border border-[#DA001766] rounded-full p-2">
-              <img src="./assets/icon/France.png" alt="">
+            <div
+              class="flex items-center gap-1 border border-[#DA001766] rounded-full p-2"
+            >
+              <img src="./assets/icon/France.png" alt="" />
               <p class="text-[#FFFFFF] text-lg font-medium">France</p>
             </div>
           </div>
-
         </div>
-        </section>
+      </section>
 
-        <section class=" px-8 py-12 bg-cover bg-bangladesh bg-center bg-no-repeat ">
-          <div class="max-w-[1320px] mx-auto text-white  ">
-            <div class="bg-[#0A0001] bg-opacity-95 absolute"></div>
-            <div class="h-[803px] w-[693px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px]  absolute top-[3000px] left-[1800px]  blur-[270px]"></div>
+      <section class="px-8 py-12 bg-cover bg-bangladesh bg-center bg-no-repeat">
+        
+        <div class="max-w-[1320px] mx-auto text-white">
+          <div class="bg-[#0A0001] bg-opacity-95 absolute"></div>
+          <div
+            class="h-[803px] w-[693px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px] absolute top-[3000px] left-[1800px] blur-[270px]"
+          ></div>
 
-            <div class="h-[611px] w-[442px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px]  absolute top-[2500px] left-[-201px]  blur-[270px]"></div>
-    <div class="">
-      <h2 class="text-5xl font-bold uppercase tracking-wide flex  gap-3">
-        <span>Expanding Operations In</span>
-        <span class="w-[200px]   border-b-2  block"></span>
-       
-      </h2>
-     
-      
-      
-      <p class="mt-4 text-gray-300 max-w-2xl">
-        Providing tailored solutions and opportunities in Bangladesh, fostering innovation and empowering 
-        local industries to thrive in a global economy.
-      </p>
-    </div>
-  
-    <div class="mt-12 flex flex-col md:flex-row items-center gap-6 ">
-      <!-- Left Side: Image Section -->
-      <div class="relative ">
-        <img class="w-[850px]  " src="./assets/thumbails/bangladesh-image.png" alt="Bangladesh" class="rounded-lg shadow-lg w-full object-cover">
-        <div class="absolute top-1 left-1/2 transform -translate-x-1/2 bg-primary text-white w-[372px] h-[64px] flex justify-center items-center   py-2 rounded-lg text-2xl font-bold">
-          BANGLADESH
-        </div>
-      </div>
-  
-      <!-- Right Side: Information Panel -->
-      <div class="flex-1 bg-primary bg-opacity-5 p-6 h-[460px] overflow-y-auto rounded-xl shadow-lg border border-white/10 backdrop-blur-xl pr-5 custom-scrollbar">
-        <div class="space-y-4">
-          <div class="border-b border-primary rounded-lg pb-3 backdrop-blur-xl bg-gray-600 bg-opacity-30 p-4">
-            <h3 class="text-2xl font-semibold text-white">Bangladesh</h3>
-            <p class="text-gray-300 text-sm">In Bangladesh, we continue to innovate and empower, helping local industries flourish as part of the global marketplace.</p>
+          <div
+            class="h-[611px] w-[442px] rounded-full -z-20 bg-primary bg-opacity-30 backdrop-blur-[564px] absolute top-[2500px] left-[-201px] blur-[270px]"
+          ></div>
+          <div class="">
+            <h2 class="text-5xl font-bold uppercase tracking-wide flex gap-3">
+              <span>Expanding Operations In</span>
+              <span class="w-[200px] border-b-2 block"></span>
+            </h2>
+
+            <p class="mt-4 text-gray-300 max-w-2xl">
+              Providing tailored solutions and opportunities in Bangladesh,
+              fostering innovation and empowering local industries to thrive in
+              a global economy.
+            </p>
           </div>
+
+          <div class="mt-12 flex flex-col md:flex-row items-center gap-6">
+            <!-- Left Side: Image Section -->
+            <div class="relative">
+              <img
+                class="w-[850px]"
+                src="./assets/thumbails/bangladesh-image.png"
+                alt="Bangladesh"
+                class="rounded-lg shadow-lg w-full object-cover"
+              />
+              <div
+                class="absolute top-1 left-1/2 transform -translate-x-1/2 bg-primary text-white w-[372px] h-[64px] flex justify-center items-center py-2 rounded-lg text-2xl font-bold"
+              >
+                BANGLADESH
+              </div>
+            </div>
+
+            <!-- Right Side: Information Panel -->
+            <div
+              class="flex-1 bg-primary bg-opacity-5 p-6 h-[460px] overflow-y-auto rounded-xl shadow-lg border border-white/10 backdrop-blur-xl pr-5 custom-scrollbar"
+            >
+              <div class="space-y-4">
+                <div
+                  class="border-b border-primary rounded-lg pb-3 backdrop-blur-xl bg-gray-600 bg-opacity-30 p-4"
+                >
+                  <h3 class="text-2xl font-semibold text-white">Bangladesh</h3>
+                  <p class="text-gray-300 text-sm">
+                    In Bangladesh, we continue to innovate and empower, helping
+                    local industries flourish as part of the global marketplace.
+                  </p>
+                </div>
+
+                <div
+                  class="border-b border-gray-700 rounded-lg pb-3 backdrop-blur-xl bg-gray-600 bg-opacity-30 p-4"
+                >
+                  <h3 class="text-xl font-semibold">United Arab Emirates</h3>
+                  <p class="text-gray-400 text-sm">
+                    We’re thrilled to deepen our presence in the UAE, broadening
+                    our services to foster local business growth in this vibrant
+                    financial hub.
+                  </p>
+                </div>
+
+                <div
+                  class="border-b border-gray-700 rounded-lg pb-3 backdrop-blur-xl bg-gray-600 bg-opacity-30 p-4"
+                >
+                  <h3 class="text-xl font-semibold">St. Vincent</h3>
+                  <p class="text-gray-400 text-sm">
+                    We’re excited to set foot in St. Vincent, where we aim to
+                    harness local potential and drive sustainable development.
+                  </p>
+                </div>
+
+                <div
+                  class="border-b border-gray-700 rounded-lg pb-3 backdrop-blur-xl bg-gray-600 bg-opacity-30 p-4"
+                >
+                  <h3 class="text-xl font-semibold">Panama</h3>
+                  <p class="text-gray-400 text-sm">
+                    Our new operations in Panama tap into its strategic
+                    position, aiming to transform local enterprises into
+                    significant global players.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-16 text-white">
+        <div class="max-w-[1320px] mx-auto">
+          <!-- Section Title -->
+          <h2 class="text-5xl font-semibold uppercase tracking-wide">
+            OUR LATEST
+            <span
+              class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text"
+            >
+              NEWS
+            </span>
+          </h2>
+          <div class="flex justify-between">
+            <p class="text-white mt-3 max-w-[720px]">
+              Stay informed with AlWadiya's latest updates, featuring product
+              launches, partnerships, and advancements in customer satisfaction
+              and sustainability.
+            </p>
+            <button
+              class="flex items-center mt-4 gap-2 px-7 py-2 bg-primary rounded-full text-white"
+            >
+              View all News
+              <img src="./assets/icon/vector.png" alt="Join Icon" />
+            </button>
+          </div>
+
+          <!-- News Grid -->
+          <div
+            class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10"
+          >
+            <!-- News Card 1 -->
+            <div
+              class="rounded-xl p-4 shadow-lg overflow-hidden bg-gradient-to-b from-[#DA00171A] to-[#DA001700]"
+            >
+              <img
+                src="./assets/thumbails/news1.png"
+                alt="News Image"
+                class="w-full"
+              />
+              <div class="">
+                <p class="text-gray-500 text-sm mt-2">15 December 2024</p>
+                <h3 class="text-2xl font-semibold mt-2">
+                  The Future of Cryptocurrency Trading
+                </h3>
+                <p class="text-gray-400 text-sm mt-2">
+                  Explore blockchain innovations and emerging trends shaping the
+                  crypto market, offering exciting opportunities for traders to
+                  navigate a dynamic and evolving financial landscape.
+                </p>
+                <button
+                  class="flex items-center mt-7 gap-2 px-7 py-2 bg-primary rounded-full text-white"
+                >
+                  Read More
+                  <img src="./assets/icon/vector.png" alt="Join Icon" />
+                </button>
+              </div>
+            </div>
+
+            <!-- News Card 2 -->
+            <div
+              class="rounded-xl p-4 shadow-lg overflow-hidden bg-gradient-to-b from-[#DA00171A] to-[#DA001700]"
+            >
+              <img
+                src="./assets/thumbails/news3.png"
+                alt="News Image"
+                class="w-full"
+              />
+              <div class="">
+                <p class="text-gray-500 text-sm mt-2">15 December 2024</p>
+                <h3 class="text-xl font-semibold mt-2">
+                  5 Security Tips for Safe Crypto Transactions
+                </h3>
+                <p class="text-gray-400 text-sm mt-2">
+                  Discover key strategies to protect your digital assets, from
+                  using hardware wallets to enabling multi-factor
+                  authentication, ensuring your transactions remain secure in
+                  the ever...
+                </p>
+                <button
+                  class="flex items-center mt-4 gap-2 px-7 py-2 bg-primary rounded-full text-white"
+                >
+                  Read More
+                  <img src="./assets/icon/vector.png" alt="Join Icon" />
+                </button>
+              </div>
+            </div>
+
+            <!-- News Card 3 -->
+            <div
+              class="rounded-xl p-4 shadow-lg overflow-hidden bg-gradient-to-b from-[#DA00171A] to-[#DA001700]"
+            >
+              <img
+                src="./assets/thumbails/news2.png"
+                alt="News Image"
+                class="w-full"
+              />
+              <div class="">
+                <p class="text-gray-500 text-sm">15 December 2024</p>
+                <h3 class="text-xl font-semibold mt-2">
+                  Why Diversification is Key in Crypto Investment
+                </h3>
+                <p class="text-gray-400 text-sm mt-2">
+                  Understand how diversifying investments across
+                  cryptocurrencies minimizes risks and enhances potential
+                  returns, empowering investors to thrive in the volatile
+                  digital asset market.
+                </p>
+                <button
+                  class="flex items-center mt-4 gap-2 px-7 py-2 bg-primary rounded-full text-white"
+                >
+                  Read More
+                  <img src="./assets/icon/vector.png" alt="Join Icon" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-16 px-6 text-white">
+        <div
+          class="max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8"
+        >
+          <!-- Left Side: Contact Info -->
+          <div
+            class="flex flex-col relative justify-center rounded-xl p-8 border border-gray-600 overflow-hidden"
+          >
+            <div class="bg-primary bg-opacity-[2.5%] inset-0 absolute z-0"></div>
+
+            <div class="relative z-10">
+              <h2 class="text-3xl font-semibold">CONTACT US</h2>
+              <p class="text-gray-400 mt-2">
+                Fill up the form, our team will get back to you within 24 Hours
+              </p>
+
+              <hr class="border-gray-600 my-5" />
+
+              <!-- Contact Info -->
+              <div class="space-y-6">
+                <div class="flex items-center gap-4">
+                  <img src="./assets/icon/phone.png" alt="Phone" class="w-8" />
+                  <div>
+                    <p class="text-gray-400 text-sm">Phone Number</p>
+                    <p class="text-lg font-semibold">0491 853 893</p>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-4">
+                  <img src="./assets/icon/email.png" alt="Email" class="w-8" />
+                  <div>
+                    <p class="text-gray-400 text-sm">Email Address</p>
+                    <p class="text-lg font-semibold">info@r3transport.com.au</p>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-4">
+                  <img
+                    src="./assets/icon/location.png"
+                    alt="Location"
+                    class="w-8"
+                  />
+                  <div>
+                    <p class="text-gray-400 text-sm">Office Address</p>
+                    <p class="text-lg font-semibold">
+                      9 Knight Street, LANSVALE NSW 2166
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side: Contact Form -->
+          <div
+            class="relative rounded-xl p-8 border border-gray-600 overflow-hidden"
+          >
+            <div class="bg-primary bg-opacity-[2.5%] inset-0 absolute z-0"></div>
+
+            <form class="relative z-10 space-y-5">
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                class="w-full p-3 bg-transparent border border-gray-600 bg-gray-600 bg-opacity-80 rounded-lg text-white focus:outline-none focus:border-primary"
+              />
+
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="w-full p-3 bg-transparent border border-gray-600 rounded-lg bg-gray-600 bg-opacity-30 text-white focus:outline-none focus:border-primary"
+              />
+
+              <input 
+                type="tel"
+                placeholder="Enter your phone number"
+                class="w-full p-3 bg-transparent border border-gray-600 bg-gray-600 bg-opacity-30 rounded-lg text-white focus:outline-none focus:border-primary"
+              />
+
+              <textarea
+                rows="4"
+                placeholder="Message here..."
+                class="w-full p-3 bg-transparent border border-gray-600 bg-gray-600 bg-opacity-30 rounded-lg text-white focus:outline-none focus:border-primary"
+              ></textarea>
+
+              <button
+                class="flex w-full justify-center items-center mt-4 gap-2 px-7 py-2 bg-primary rounded-full text-white"
+              >
+                Submit <img src="./assets/icon/vector.png" alt="Join Icon" />
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="text-white py-10 relative">
+        <!-- Background Overlay -->
+        <div class="bg-primary bg-opacity-[4%] inset-0 absolute z-0"></div>
+      
+        <div class="max-w-[1320px] mx-auto text-center relative z-10">
           
-      
-          <div class="border-b border-gray-700 rounded-lg pb-3 backdrop-blur-xl bg-gray-600 bg-opacity-30 p-4">
-            <h3 class="text-xl font-semibold">United Arab Emirates</h3>
-            <p class="text-gray-400 text-sm">We’re thrilled to deepen our presence in the UAE, broadening our services to foster local business growth in this vibrant financial hub.</p>
+          <!-- Logo and Description -->
+          <div class="">
+            <div class="flex items-center justify-between">
+              <div class="flex text-3xl font-bold gap-3">
+                <img src="./assets/Layer_1.png" alt="AlWadiya Logo" class="w-10">
+                <h2>AlWadiya</h2>
+              </div>
+              <div class="mt-8 flex items-center gap-4">
+                <a href="#" class="w-10 h-10 flex justify-center items-center rounded-full bg-secondary border-gray-700 border   hover:bg-primary transition z-20">
+                  <img src="./assets/icon/facebook.png" alt="Facebook" class="w-5">
+                </a>
+                <a href="#" class="w-10 h-10 flex justify-center items-center rounded-full bg-secondary border-gray-700 border   hover:bg-primary transition z-20">
+                  <img src="./assets/icon/twitter.png" alt="Twitter" class="w-5">
+                </a>
+                <a href="#" class="w-10 h-10 flex justify-center items-center rounded-full bg-secondary border-gray-700 border   hover:bg-primary transition z-20">
+                  <img src="./assets/icon/instagram.png" alt="Instagram" class="w-5">
+                </a>
+                <a href="#" class="w-10 h-10 flex justify-center items-center rounded-full bg-secondary border-gray-700 border   hover:bg-primary transition z-20">
+                  <img src="./assets/icon/linkedin.png" alt="LinkedIn" class="w-5">
+                </a>
+              </div>
+            </div>
+            <hr class="border-gray-700 opacity-50 w-full my-4">
+            <p class="text-white max-w-3xl mx-auto mt-12">
+              AlWadiya offers innovative solutions in business consultancy, investment strategies, and project management, empowering businesses globally with tailored services, cutting-edge tools, and expert guidance for sustainable growth and success.
+            </p>
           </div>
       
-          <div class="border-b border-gray-700 rounded-lg pb-3 backdrop-blur-xl bg-gray-600 bg-opacity-30 p-4">
-            <h3 class="text-xl font-semibold">St. Vincent</h3>
-            <p class="text-gray-400 text-sm">We’re excited to set foot in St. Vincent, where we aim to harness local potential and drive sustainable development.</p>
-          </div>
-      
-          <div class="border-b border-gray-700 rounded-lg pb-3 backdrop-blur-xl bg-gray-600 bg-opacity-30 p-4">
-            <h3 class="text-xl font-semibold">Panama</h3>
-            <p class="text-gray-400 text-sm">Our new operations in Panama tap into its strategic position, aiming to transform local enterprises into significant global players.</p>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</section>
-
-<section class="py-16 text-white ">
-  <div class="max-w-[1320px] mx-auto ">
-    <!-- Section Title -->
-    <h2 class="text-5xl font-semibold uppercase tracking-wide">
-      OUR LATEST 
-      <span class="bg-gradient-to-r from-[#FFB0B0] to-[#F30001] text-transparent bg-clip-text">
-        NEWS
-      </span>
-    </h2>
-   <div class="flex justify-between">
-    <p class="text-white mt-3 max-w-[720px] ">
-      Stay informed with AlWadiya's latest updates, featuring product launches, partnerships,
-      and advancements in customer satisfaction and sustainability.
-    </p>
-    <button
-    class="flex items-center mt-4 gap-2 px-7 py-2 bg-primary rounded-full text-white"
-  >
-  View all News <img src="./assets/icon/vector.png" alt="Join Icon" />
-  </button>
-   </div>
-
-   
-
-    <!-- News Grid -->
-    <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-      
-      <!-- News Card 1 -->
-      <div class="rounded-xl p-4 shadow-lg overflow-hidden  bg-gradient-to-b from-[#DA00171A] to-[#DA001700]">
-        <img src="./assets/thumbails/news1.png" alt="News Image" class="w-full ">
-        <div class="">
-          <p class="text-gray-500 text-sm mt-2">15 December 2024</p>
-          <h3 class="text-2xl font-semibold mt-2">The Future of Cryptocurrency Trading</h3>
-          <p class="text-gray-400 text-sm mt-2">
-            Explore blockchain innovations and emerging trends shaping the crypto market, offering exciting opportunities for traders to navigate a dynamic and evolving financial landscape.
-          </p>
-          <button
-          class="flex items-center mt-7 gap-2 px-7 py-2 bg-primary rounded-full text-white"
-        >
-        Read More <img src="./assets/icon/vector.png" alt="Join Icon" />
-        </button>
-        </div>
-      </div>
-
-      <!-- News Card 2 -->
-      <div class="rounded-xl p-4 shadow-lg overflow-hidden  bg-gradient-to-b from-[#DA00171A] to-[#DA001700]">
-        <img src="./assets/thumbails/news3.png" alt="News Image" class="w-full">
-        <div class="">
-          <p class="text-gray-500 text-sm mt-2">15 December 2024</p>
-          <h3 class="text-xl font-semibold mt-2">5 Security Tips for Safe Crypto Transactions</h3>
-          <p class="text-gray-400 text-sm mt-2">
-            Discover key strategies to protect your digital assets, from using hardware wallets to enabling multi-factor authentication, ensuring your transactions remain secure in the ever...
-          </p>
-          <button class="flex items-center mt-4 gap-2 px-7 py-2 bg-primary rounded-full text-white">
-            Read More <img src="./assets/icon/vector.png" alt="Join Icon" />
-          </button>
-        </div>
-      </div>
-      
-
-      <!-- News Card 3 -->
-      <div class="rounded-xl p-4 shadow-lg overflow-hidden  bg-gradient-to-b from-[#DA00171A] to-[#DA001700]">
-        <img src="./assets/thumbails/news2.png" alt="News Image" class="w-full ">
-        <div class="">
-          <p class="text-gray-500 text-sm">15 December 2024</p>
-          <h3 class="text-xl font-semibold mt-2">Why Diversification is Key in Crypto Investment</h3>
-          <p class="text-gray-400 text-sm mt-2">
-            Understand how diversifying investments across cryptocurrencies minimizes risks and enhances potential returns, empowering investors to thrive in the volatile digital asset market.
-          </p>
-          <button
-          class="flex items-center mt-4 gap-2 px-7 py-2 bg-primary rounded-full text-white"
-        >
-        Read More <img src="./assets/icon/vector.png" alt="Join Icon" />
-        </button>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<section class="py-16 px-6 text-white">
-  <div class="max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-    
-    <!-- Left Side: Contact Info -->
-    <div class="flex flex-col relative justify-center rounded-xl p-8 border border-gray-600 overflow-hidden">
-      <div class="bg-primary bg-opacity-5 inset-0 absolute z-0"></div>
-      
-      <div class="relative z-10">
-        <h2 class="text-3xl font-semibold">CONTACT US</h2>
-        <p class="text-gray-400 mt-2">
-          Fill up the form, our team will get back to you within 24 Hours
-        </p>
-
-        <hr class="border-gray-600 my-5">
-
-        <!-- Contact Info -->
-        <div class="space-y-6">
-          <div class="flex items-center gap-4">
-            <img src="./assets/icon/phone.png" alt="Phone" class="w-8">
-            <div>
-              <p class="text-gray-400 text-sm">Phone Number</p>
-              <p class="text-lg font-semibold">0491 853 893</p>
+          <!-- Office Locations -->
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7">
+            <div class="border border-[#DA001799] rounded-lg p-4 relative z-10">
+              <h3 class="text-lg font-semibold">AlWadiya UAE (HQ)</h3>
+              <p class="text-gray-400 text-sm">Bay Square, Building 3, <br> Business Bay, Dubai, U.A.E.</p>
+            </div>
+            <div class="border border-[#DA001799] rounded-lg p-4 relative z-10">
+              <h3 class="text-lg font-semibold">AlWadiya Saudi Arabia</h3>
+              <p class="text-gray-400 text-sm">King Abdul Aziz Road, <br> Riyadh 11564, Saudi Arabia</p>
+            </div>
+            <div class="border border-[#DA001799] rounded-lg p-4 relative z-10">
+              <h3 class="text-lg font-semibold">AlWadiya India</h3>
+              <p class="text-gray-400 text-sm">Level 5, IT Park Road, <br> Whitefield, Bangalore, India</p>
+            </div>
+            <div class="border border-[#DA001799] rounded-lg p-4 relative z-10">
+              <h3 class="text-lg font-semibold">AlWadiya Qatar</h3>
+              <p class="text-gray-400 text-sm">Doha Business Center, <br> West Bay, Doha, Qatar</p>
             </div>
           </div>
-
-          <div class="flex items-center gap-4">
-            <img src="./assets/icon/email.png" alt="Email" class="w-8">
-            <div>
-              <p class="text-gray-400 text-sm">Email Address</p>
-              <p class="text-lg font-semibold">info@r3transport.com.au</p>
-            </div>
+      
+        </div>
+      
+        <!-- Bottom Section -->
+        <hr class="border-gray-700 opacity-50 w-full my-4 relative z-10">
+        <div class="flex max-w-[1320px] pt-3 mx-auto items-center justify-between relative z-10">
+          <div class="flex justify-center gap-6 text-gray-400">
+            <a href="#" class="hover:text-white transition z-20">Home</a>
+            <a href="#" class="hover:text-white transition z-20">Products</a>
+            <a href="#" class="hover:text-white transition z-20">Why AlWadiya?</a>
+            <a href="#" class="hover:text-white transition z-20">News</a>
+            <a href="#" class="hover:text-white transition z-20">Contact us</a>
           </div>
-
-          <div class="flex items-center gap-4">
-            <img src="./assets/icon/location.png" alt="Location" class="w-8">
-            <div>
-              <p class="text-gray-400 text-sm">Office Address</p>
-              <p class="text-lg font-semibold">9 Knight Street, LANSVALE NSW 2166</p>
-            </div>
+      
+          <!-- Copyright -->
+          <div class="text-gray-500 text-sm">
+            2025 © AlWadiya. All Rights Reserved.
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Right Side: Contact Form -->
-    <div class="relative rounded-xl p-8 border border-gray-600 overflow-hidden">
-      <div class="bg-primary bg-opacity-5 inset-0 absolute z-0"></div>
-
-      <form class="relative z-10 space-y-5">
-        <input type="text" placeholder="Enter your full name" class="w-full p-3 bg-transparent border border-gray-600 bg-gray-600 bg-opacity-30 rounded-lg text-white focus:outline-none focus:border-primary">
-        
-        <input type="email" placeholder="Enter your email" class="w-full p-3 bg-transparent border border-gray-600 rounded-lg bg-gray-600 bg-opacity-30 text-white focus:outline-none focus:border-primary">
-        
-        <input type="tel" placeholder="Enter your phone number" class="w-full p-3 bg-transparent border border-gray-600 bg-gray-600 bg-opacity-30 rounded-lg text-white focus:outline-none focus:border-primary">
-        
-        <textarea rows="4" placeholder="Message here..." class="w-full p-3 bg-transparent border border-gray-600 bg-gray-600 bg-opacity-30 rounded-lg text-white focus:outline-none focus:border-primary"></textarea>
-        
-        <button class="flex w-full justify-center items-center mt-4 gap-2 px-7 py-2 bg-primary rounded-full text-white">
-          Submit <img src="./assets/icon/vector.png" alt="Join Icon" />
-        </button>
-      </form>
-    </div>
-
-  </div>
-</section>
+      </footer>
+      
+      
 
 
 
-
-
-      </main>
-    </div>
+    </main>
   </body>
 </html>
