@@ -12,6 +12,7 @@ export default {
       },
       backgroundImage: {
         'hero': "url('/src/assets/bg/hero.png')", 
+        'bangladesh': "url('/src/assets/bg/expanding.png')",
       },
     },
   },
